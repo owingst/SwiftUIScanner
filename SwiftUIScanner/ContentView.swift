@@ -10,7 +10,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        
+        NavigationView {
+            ZStack {
+                ScannerViewController()
+                Text("Scan Window")
+                    .navigationBarTitle(Text("Scanner"), displayMode: .inline)
+            }
+        }
     }
 }
 
