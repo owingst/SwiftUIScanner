@@ -13,6 +13,7 @@
 		2E19BADF236F696500CDFB6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E19BADE236F696500CDFB6E /* Assets.xcassets */; };
 		2E19BAE2236F696500CDFB6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E19BAE1236F696500CDFB6E /* Preview Assets.xcassets */; };
 		2E19BAE5236F696500CDFB6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E19BAE3236F696500CDFB6E /* LaunchScreen.storyboard */; };
+		2E19BAED236F69DE00CDFB6E /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E19BAEC236F69DE00CDFB6E /* ScannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2E19BAE1236F696500CDFB6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2E19BAE4236F696500CDFB6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E19BAE6236F696500CDFB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E19BAEC236F69DE00CDFB6E /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2E19BAE3236F696500CDFB6E /* LaunchScreen.storyboard */,
 				2E19BAE6236F696500CDFB6E /* Info.plist */,
 				2E19BAE0236F696500CDFB6E /* Preview Content */,
+				2E19BAEC236F69DE00CDFB6E /* ScannerViewController.swift */,
 			);
 			path = SwiftUIScanner;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				2E19BAD9236F696500CDFB6E /* AppDelegate.swift in Sources */,
 				2E19BADB236F696500CDFB6E /* SceneDelegate.swift in Sources */,
 				2E19BADD236F696500CDFB6E /* ContentView.swift in Sources */,
+				2E19BAED236F69DE00CDFB6E /* ScannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
